@@ -106,15 +106,19 @@ int main(){
         switch (choice)
         {
         case 1:
+            printf("You select %d choice",choice);
             add_task(tasks,&num_tasks);
             break;
         case 2:
+            printf("You select %d choice",choice);
             mark_task_completed(tasks,num_tasks);
             break;
         case 3:
+            printf("You select %d choice",choice);
             delete_task(tasks,&num_tasks);
             break;
         case 4:
+            printf("You select %d choice",choice);
             display_tasks(tasks,num_tasks);
             break;
         case 5:
